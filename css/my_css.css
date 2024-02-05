@@ -2,10 +2,10 @@
 {
 	margin: 12px;
 	font-weight: bold;
-	font-size: 3.0em;
+	font-size: 3.5em;
 	color: #FFE5B4;
-	text-align: center;
-	padding: 13px;
+	text-align: left;
+	padding: 15px;
 	font-family: arial, serif;
 	text-decoration: underline;
 }
@@ -18,54 +18,74 @@ body
 
 #navbar
 {
-	padding: .7em 0px .25em 0px;
+	padding: .9em 0px .3em 0px;
 	text-align: center;
 	border: 3px solid black;
-	height: 40px;
+	height: 45px;
 	background-color: #191970;
 }
 
-#header
-{
-	position: static;
-	top: 0px;
-	left: 0px;
-	bottom: 0px;
-	padding: 0px;
-	background-color: black;
-	border-top: 2px solid black;
-}
+
 
 a.nav
 {
 	text-decoration: none;
 	color: white;
 	padding: 10px;
-	font-size: 1.7em;
+	font-size: 2.0em;
 	background-color: black;
+}
+
+a.nav:hover
+{
+	color: blue;
+	
 }
 
 img.aboutmepic
 {
-	text-align: center;
 	padding: 8px;
-	height: 385px;
-	width: 295px;
-	
+	height: 405px;
+	width: 315px;
 }
 
 #content
 {
 	text-align: center;
-	
 }
 
 #aboutmetext
 {
-	font-weight: bold;
 	font-size: 1.4em;
-	color: #FFE5B4;
+	color: #ADD8E6;
 	text-align: left;
 	padding: 14px;
 }
 
+#slidecaption
+{
+	font-size: 2.2em;
+	color: #AAFF00;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#travelsection
+{
+	text-align: left;
+}
+
+img.travelimages
+{
+	padding: 8px;
+	height: 405px;
+	width: 315px;
+}
+
+
+#bottommessage
+{
+	color: white;
+	
+}
